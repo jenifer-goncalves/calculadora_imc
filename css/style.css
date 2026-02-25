@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Zen+Dots&display=swap');
+
 
 *{
     margin: 0;
@@ -25,12 +27,15 @@ body{
     align-items: center;
     border-radius: 15px;
     box-shadow: #9D0208;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
     background-color: #FFD6A5;
     padding: 20px;
 }
 
 .calculator__title{
     color: #D1495B;
+    font-size: 2rem;
+    font-family: "Zen Dots", sans-serif;
 }
 
 .calculator__inputs{
@@ -52,17 +57,24 @@ body{
     border: 1px solid #F77F00;
 }
 
+.calculator__label{
+    text-align: center;
+}
+
 .calculator__buttons{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     margin-top: 10px;
+
 }
 
 .calculator__buttons button{
     padding: 10px;
     border-radius: 10px;
     font-size: 17px;
+    width: 200px;
     
 }
 
@@ -93,10 +105,17 @@ body{
 }
 
 .calculator__result-section{
-    margin-top: 25px;
+    text-align: center;
+    padding: 25px;
 }
 
 
 .calculator__result-title{
     color: #D62828;
+    font-size: 30px;
+   
+}
+
+.calculator__result-text{
+    font-size: 20px;
 }
